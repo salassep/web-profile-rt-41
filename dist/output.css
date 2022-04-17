@@ -572,6 +572,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-top: -0.75rem;
 }
 
+.ml-5 {
+  margin-left: 1.25rem;
+}
+
 .block {
   display: block;
 }
@@ -608,6 +612,56 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 15rem;
 }
 
+.h-max {
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+}
+
+.h-fit {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.h-min {
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+}
+
+.h-80 {
+  height: 20rem;
+}
+
+.h-10 {
+  height: 2.5rem;
+}
+
+.h-8 {
+  height: 2rem;
+}
+
+.h-16 {
+  height: 4rem;
+}
+
+.h-1\/2 {
+  height: 50%;
+}
+
+.h-2\/4 {
+  height: 50%;
+}
+
+.h-20 {
+  height: 5rem;
+}
+
+.h-72 {
+  height: 18rem;
+}
+
 .w-full {
   width: 100%;
 }
@@ -626,6 +680,18 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .w-24 {
   width: 6rem;
+}
+
+.w-5 {
+  width: 1.25rem;
+}
+
+.w-10 {
+  width: 2.5rem;
+}
+
+.w-20 {
+  width: 5rem;
 }
 
 .max-w-\[250px\] {
@@ -888,6 +954,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   line-height: 1.75rem;
 }
 
+.text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -1047,6 +1118,14 @@ body {
 }
 
 @media (min-width: 640px) {
+  .sm\:h-20 {
+    height: 5rem;
+  }
+
+  .sm\:w-20 {
+    width: 5rem;
+  }
+
   .sm\:p-14 {
     padding: 3.5rem;
   }
@@ -1063,9 +1142,23 @@ body {
   .sm\:text-right {
     text-align: right;
   }
+
+  .sm\:text-sm {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+  }
+
+  .sm\:text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
 }
 
 @media (min-width: 768px) {
+  .md\:h-60 {
+    height: 15rem;
+  }
+
   .md\:w-3\/5 {
     width: 60%;
   }
