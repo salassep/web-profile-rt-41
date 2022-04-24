@@ -9,8 +9,8 @@
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
   <!-- <link rel="stylesheet" href="src/style/my-style.css"> -->
-  <link rel="stylesheet" href="./dist/output.css">
-  <link rel="icon" href="./favicon.png">
+  <link rel="stylesheet" href="../dist/output.css">
+  <link rel="icon" href="../favicon.png">
   <title>RT 41 Lempake</title>
   <script>
     if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
@@ -26,7 +26,7 @@
     <div class="container">
       <div class="relative flex items-center justify-between">
         <div class="px-4">
-          <a href="#home" class="block py-6 text-lg font-bold text-primary">
+          <a href="../index.html" class="block py-6 text-lg font-bold text-primary">
             <div class="border-2 inline-block px-1 rounded-full border-primary">
               41
             </div>
@@ -46,19 +46,19 @@
           >
             <ul class="block lg:flex">
               <li class="group">
-                <a href="#home" class="mx-8 flex py-2 text-base text-dark group-hover:text-primary dark:text-white">Beranda</a>
+                <a href="../index.html" class="mx-8 flex py-2 text-base text-dark group-hover:text-primary dark:text-white">Beranda</a>
               </li>
               <li class="group">
-                <a href="pages/fasilitas.html" class="mx-8 flex py-2 text-base text-dark group-hover:text-primary dark:text-white">Fasilitas</a>
+                <a href="./fasilitas.html" class="mx-8 flex py-2 text-base text-dark group-hover:text-primary dark:text-white">Fasilitas</a>
               </li>
               <li class="group">
-                <a href="pages/demografi.html" class="mx-8 flex py-2 text-base text-dark group-hover:text-primary dark:text-white">Demografi</a>
+                <a href="./demografi.html" class="mx-8 flex py-2 text-base text-dark group-hover:text-primary dark:text-white">Demografi</a>
               </li>
               <li class="group">
-                <a href="pages/galeri.html" class="mx-8 flex py-2 text-base text-dark group-hover:text-primary dark:text-white">Galeri</a>
+                <a href="./galeri.html" class="mx-8 flex py-2 text-base text-dark group-hover:text-primary dark:text-white">Galeri</a>
               </li>
               <li class="group">
-                <a href="pages/lokasi.html" class="mx-8 flex py-2 text-base text-dark group-hover:text-primary dark:text-white">Lokasi</a>
+                <a href="./lokasi.html" class="mx-8 flex py-2 text-base text-dark group-hover:text-primary dark:text-white">Lokasi</a>
               </li>
               <li class="mt-3 flex items-center pl-8 lg:mt-0">
                 <div class="flex">
@@ -79,58 +79,15 @@
     </div>
   </header>
   <!-- Header End -->
-
-  <!-- Hero Start -->
-  <section id="home" class="pt-20 dark:bg-dark">
-    <div class="hero w-full">
-      <div class="hero-text vertical-center p-6 sm:p-14 text-white">
-        <h1 class="font-bold text-4xl">RT 41 Kelurahan Lempake</h1>
-        <p class="pt-5 w-4/5 md:w-3/5">RT 41 merupakan salah satu dari RT yang berada di bawah naungan administrasi Kelurahan Lempake, Kecamatan Samarinda Utara, Kota Samarinda, Provinsi Kalimantan Timur.</p>
-        <p class="pt-3 w-4/5 md:w-3/5">RT 41 memiliki warga yang pekerja keras, solid, ramah, serta semangat gotong royong dan jiwa kekeluargaan yang tinggi.</p>
-      </div>
+<section class="lokasi pt-20">
+  <div class="mb-10 px-5 lg:px-20">
+    <h1 class="font-bold text-3xl dark:text-white ml-2 pb-2 border-b border-slate-400 ">Lokasi</h1>
+    <div class="pt-3 pr-2 w-full grid place-items-center">
+      <iframe class="ml-4 w-full rounded-md" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2903.8164220110857!2d117.1977459791756!3d-0.42377053328133435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2df5d7c77fefdd0f%3A0xcd03f171bad84223!2sGg.%20Rizky%2C%20Lempake%2C%20Kec.%20Samarinda%20Utara%2C%20Kota%20Samarinda%2C%20Kalimantan%20Timur%2075117!5e0!3m2!1sid!2sid!4v1650785726469!5m2!1sid!2sid" width="800" height="600" allowfullscreen="" style="border: 1px solid rgba(0, 0, 0, 0.253);" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
-  </section>
-  <!-- Hero end -->
-<section class="dark:bg-dark align-middle">
-  <h1 class="font-bold text-2xl text-primary px-6 pt-10 pb-2 sm:px-14 text-center">VISI & MISI</h1>
-  <div class="visi text-center sm:text-left">
-    <h1 class="font-bold text-3xl text-black px-6 pt-8 pb-2 sm:px-14 dark:text-white">VISI</h1>
-    <p class="px-14 dark:text-white">Memberikan Pelayanan yang Berkualitas Untuk Membangun Partisipasi Masyarakat.</p>
-  </div>
-  <div class="misi text-center mt-8 sm:text-right">
-    <h1 class="font-bold text-3xl text-black px-6 pt-2 pb-2 sm:px-14 dark:text-white">MISI</h1>
-    <ul class="list-none px-14 dark:text-white">
-      <li>Meningkatkan Kualitas Aparatur Kelurahan Melalui Peningkatan Sumber Daya Manusia yang Terampil,<br> Berkemampuan dan Memiliki Wawasan yang Luas Berdasarkan Pada Iptek dan Imtek;</li>
-      <li class="pt-2">Meningkatkan Tertib Administrasi Pemerintahan Kelurahan;</li>
-      <li class="pt-2">Komitmen Terhadap Mutu Pelayanan yang Cepat, Ramah, Mudah dan Tepat;</li>
-      <li class="pt-2">Meningkatkan Peran Serta dan Partisipasi Masyarakat dalam Mengelola Program Pembangunan;</li>
-      <li class="pt-2 pb-20">Mendukung Program Pemerintah Pembangunan, dan Kemasyarakatan.</li>
-    </ul>
   </div>
 </section>
-  
-  <!-- wish start -->
-  <section>
-    <div class="flex items-center justify-center pt-10">
-      <div class="bg-primary w-full mx-auto bg-white shadow-lg px-14 pt-5 pb-10 text-gray-800 dark:bg-dark">
-          <div class="w-full pt-1 pb-5">
-              <div class="overflow-hidden border-4 border-white rounded-full w-24 h-24 -mt-[75px] mx-auto shadow-lg">
-                  <img src="assets/images/pak-rt.jpg" alt="Foto Pak RT">
-              </div>
-          </div>
-          <div class="w-full mb-10">
-              <div class="text-3xl text-black text-left leading-tight h-3 dark:text-primary">“</div>
-              <p class="text-white text-center px-5">Harapan Saya kedepannya untuk RT 41 ini bisa lebih baik lagi dari segi administrasi dan keterbukaan informasi.</p>
-              <div class="text-3xl text-black text-right leading-tight h-3 -mt-3 dark:text-primary">”</div>
-          </div>
-          <div class="w-full">
-              <p class="text-md text-black font-bold text-center dark:text-white">Bapak Sidiq</p>
-              <p class="text-sm text-gray text-center dark:text-gray-50">Ketua RT 41</p>
-          </div>
-      </div>
-  </div>
-  </section>
-  <!-- wish end -->
+
   <!-- Footer start -->
   <footer class="flex pt-16 pb-28 w-full bg-dark py-5 px-14 flex-col md:flex-row items-center border-y border-gray-500">
     <div class="flex-1 text-center md:text-right tracking-wide">
@@ -146,13 +103,13 @@
     <div class="flex-1 items-center align-middle">
       <div class="flex justify-center items-center md:justify-start">
         <div class="h-10 w-10 sm:h-20 sm:w-20">
-          <img style='height: 100%; width: 100%; object-fit: contain' src="assets/images/logo-unmul.png" alt="Logo Universitas Mulawarman">
+          <img style='height: 100%; width: 100%; object-fit: contain' src="../assets/images/logo-unmul.png" alt="Logo Universitas Mulawarman">
         </div>
         <div class="h-10 w-10 sm:h-20 sm:w-20 ml-5">
-          <img style='height: 100%; width: 100%; object-fit: contain' src="assets/images/logo FT Unmul.png" alt="Logo FT Unmul">
+          <img style='height: 100%; width: 100%; object-fit: contain' src="../assets/images/logo FT Unmul.png" alt="Logo FT Unmul">
         </div>
         <div class="h-10 w-10 sm:h-20 sm:w-20 ml-5">
-          <img style='height: 100%; width: 100%; object-fit: contain' src="assets/images/logo-kami.png" alt="Logo Kelompok 70">
+          <img style='height: 100%; width: 100%; object-fit: contain' src="../assets/images/logo-kami.png" alt="Logo Kelompok 70">
         </div>
       </div>
     </div>
@@ -162,6 +119,6 @@
   </footer>
   <!-- footer end -->
 
-  <script src="./src/js/script.js"></script>
+  <script src="../src/js/script.js"></script>
 </body>
 </html>

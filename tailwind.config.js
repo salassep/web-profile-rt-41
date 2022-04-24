@@ -1,10 +1,10 @@
 module.exports = {
-  content: ["./*.{html,js}"],
+  content: ["./*.{html,js}","./pages/*.{html,js}"],
   darkMode: 'class',
   theme: {
     container: {
       center: true,
-      padding: '56px',
+      padding: '50px',
     },
     extend: {
       colors: {
